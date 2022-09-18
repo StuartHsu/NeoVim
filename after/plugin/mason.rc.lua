@@ -5,8 +5,9 @@ if (not status2) then return end
 
 mason.setup {}
 lspconfig.setup {
-  ensure_installed = { 'csharp_ls', 'omnisharp', 'csharp-language-server' }
+  -- ensure_installed = { 'csharp_ls', 'omnisharp', 'csharp-language-server' }
   -- ensure_installed = { 'omnisharp', 'csharp-language-server' }
+  ensure_installed = { 'csharp_ls', 'omnisharp' }
 }
 
 -- require 'lspconfig'.csharp_ls.setup {}

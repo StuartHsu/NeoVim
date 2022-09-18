@@ -31,8 +31,8 @@ nvim_lsp.tsserver.setup {
 nvim_lsp.csharp_ls.setup {
   on_attach = on_attach,
   filetypes = { "cs" },
-  -- root_dir = util.root_pattern(".git", "*.sln")
-  root_dir = util.root_pattern("*.sln")
+  root_dir = util.root_pattern(".git", "*.sln")
+  -- root_dir = util.root_pattern("*.sln"),
   -- root_dir = util.root_pattern(".git")
   -- cmd = { "csharp-ls" }
 }
