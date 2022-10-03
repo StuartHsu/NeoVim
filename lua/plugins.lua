@@ -39,6 +39,7 @@ packer.startup(function(use)
   use 'nvim-lua/plenary.nvim' -- Common utilities
   use 'nvim-telescope/telescope.nvim'
   use 'nvim-telescope/telescope-file-browser.nvim'
+  use 'nvim-telescope/telescope-project.nvim'
 
   use 'akinsho/nvim-bufferline.lua'
   use 'norcalli/nvim-colorizer.lua'
@@ -47,5 +48,16 @@ packer.startup(function(use)
   -- TODO: need to fix
   use 'dinhhuy258/git.nvim' -- For git blame & browse
 
-  -- use 'OmniSharp/omnisharp-vim'
+  -- WhichKey
+  use 'folke/which-key.nvim'
+
+  -- document gen
+  use 'danymat/neogen'
+  use 'kkoomen/vim-doge'
+
+  -- cursor
+  use 'gen740/SmoothCursor.nvim'
+
+  -- dashboard
+  use 'glepnir/dashboard-nvim'
 end)
